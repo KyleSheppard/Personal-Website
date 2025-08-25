@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -6,9 +7,9 @@ export default function Home() {
       <h1>Kyle Sheppard</h1>
 
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/hobbies">My Hobbies</a></li>
-        <li><a href="/projects">Personal Projects</a></li>
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/hobbies">My Hobbies</Link></li>
+        <li><Link href="/projects">Personal Projects</Link></li>
       </ul>
 
       <p>

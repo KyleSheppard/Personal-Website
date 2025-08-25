@@ -19,13 +19,13 @@ export default function Hobbies() {
         I primarily hunt deer and bear, but I also enjoy bird hunting in the fall.
       </p>
       <p>
-        I enjoy the entire process of gearing up, scouting locations, and spending time out in the woods. It&apos;s not just about the hunt it&apos;s about being outdoors with yourself, friends, and family.
+        I enjoy the entire process of gearing up, scouting locations, and spending time out in the woods. It&apos;s not just about the hunt—it&apos;s about being outdoors with yourself, friends, and family.
       </p>
       <Image src="/deer.jpg" alt="A photo of a deer I hunted" width={150} height={200} />
 
       <h2>Fishing</h2>
       <p>
-        Fishing is another outdoor hobby I&apos;m passionate about. Whether it's casting a line in a quiet lake or fishing in the Rogue River, there&apos;s nothing quite like the calm and focus that comes with being on the water. I fish for trout, bass, steelhead, and salmon depending on the season and location.
+        Fishing is another outdoor hobby I&apos;m passionate about. Whether it&apos;s casting a line in a quiet lake or fishing in the Rogue River, there&apos;s nothing quite like the calm and focus that comes with being on the water. I fish for trout, bass, steelhead, and salmon depending on the season and location.
       </p>
       <p>
         Some of my favorite memories involve early morning fishing trips with friends or family, or even being alone enjoying a peaceful day by the water. It&apos;s a great way to relax and clear your mind from the stresses of everyday life.
@@ -35,7 +35,7 @@ export default function Hobbies() {
       <div className="section-box">
         <h2>Why I Love the Outdoors</h2>
         <p>
-          Being outside whether it&apos;s hunting, fishing, or hiking—keeps me grounded. The fresh air, the quiet, and the feeling of self-reliance all make outdoor hobbies more than just recreation—they're a way of life.
+          Being outside whether it&apos;s hunting, fishing, or hiking—keeps me grounded. The fresh air, the quiet, and the feeling of self-reliance all make outdoor hobbies more than just recreation—they&apos;re a way of life.
         </p>
       </div>
 

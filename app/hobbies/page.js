@@ -1,16 +1,17 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hobbies() {
   return (
     <main>
-      <h1>My Hobbies</h1>
-
-      <ul>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/hobbies">My Hobbies</Link></li>
-        <li><Link href="/projects">Personal Projects</Link></li>
-      </ul>
+      <header>
+        <h1>My Hobbies</h1>
+        <nav>
+          <Link href="/">Home</Link> |{" "}
+          <Link href="/hobbies">Hobbies</Link> |{" "}
+          <Link href="/projects">Projects</Link>
+        </nav>
+      </header>
 
       <h2>Hunting</h2>
       <p>
@@ -24,7 +25,7 @@ export default function Hobbies() {
 
       <h2>Fishing</h2>
       <p>
-        Fishing is another outdoor hobby I&apos;m passionate about. Whether it&apos;s casting a line in a quiet lake or fishing in the Rogue River, there&apos;s nothing quite like the calm and focus that comes with being on the water. I fish for trout, bass, steelhead, and salmon depending on the season and location.
+        Fishing is another outdoor hobby I&apos;m passionate about. Whether it's casting a line in a quiet lake or fishing in the Rogue River, there&apos;s nothing quite like the calm and focus that comes with being on the water. I fish for trout, bass, steelhead, and salmon depending on the season and location.
       </p>
       <p>
         Some of my favorite memories involve early morning fishing trips with friends or family, or even being alone enjoying a peaceful day by the water. It&apos;s a great way to relax and clear your mind from the stresses of everyday life.
@@ -34,7 +35,7 @@ export default function Hobbies() {
       <div className="section-box">
         <h2>Why I Love the Outdoors</h2>
         <p>
-          Being outside whether it&apos;s hunting, fishing, or hiking—keeps me grounded. The fresh air, the quiet, and the feeling of self-reliance all make outdoor hobbies more than just recreation—they&apos;re a way of life.
+          Being outside whether it&apos;s hunting, fishing, or hiking—keeps me grounded. The fresh air, the quiet, and the feeling of self-reliance all make outdoor hobbies more than just recreation—they're a way of life.
         </p>
       </div>
 
@@ -42,5 +43,5 @@ export default function Hobbies() {
         © 2025 Kyle Sheppard | All rights reserved
       </footer>
     </main>
-  )
+  );
 }

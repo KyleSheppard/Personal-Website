@@ -1,16 +1,17 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Projects() {
   return (
     <main>
-      <h1>Personal Projects</h1>
-
-      <ul>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/hobbies">My Hobbies</Link></li>
-        <li><Link href="/projects">Personal Projects</Link></li>
-      </ul>
+      <header>
+        <h1>Personal Projects</h1>
+        <nav>
+          <Link href="/">Home</Link> |{" "}
+          <Link href="/hobbies">Hobbies</Link> |{" "}
+          <Link href="/projects">Projects</Link>
+        </nav>
+      </header>
 
       <h2>Photography</h2>
       <p>
@@ -38,5 +39,5 @@ export default function Projects() {
         © 2025 Kyle Sheppard | All rights reserved
       </footer>
     </main>
-  )
+  );
 }

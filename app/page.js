@@ -1,16 +1,17 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <main>
-      <h1>Kyle Sheppard</h1>
-
-      <ul>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/hobbies">My Hobbies</Link></li>
-        <li><Link href="/projects">Personal Projects</Link></li>
-      </ul>
+      <header>
+        <h1>Kyle Sheppard</h1>
+        <nav>
+          <Link href="/">Home</Link> |{" "}
+          <Link href="/hobbies">Hobbies</Link> |{" "}
+          <Link href="/projects">Projects</Link>
+        </nav>
+      </header>
 
       <p>
         Hello! My name is <strong>Kyle Sheppard</strong>. This is my second year at Southern Oregon University studying Computer Science, and I&apos;m <em>excited</em> to grow my skills in coding and web development.
@@ -39,7 +40,7 @@ export default function Home() {
       </p>
 
       <p>
-        Learn more about photography at{' '}
+        Learn more about photography at{" "}
         <a href="https://www.nationalgeographic.com/photography" target="_blank" rel="noopener noreferrer">
           National Geographic Photography
         </a>.
@@ -56,5 +57,5 @@ export default function Home() {
         © 2025 Kyle Sheppard | All rights reserved
       </footer>
     </main>
-  )
+  );
 }

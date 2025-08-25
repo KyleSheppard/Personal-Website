@@ -24,7 +24,7 @@ export default function Projects() {
         I use Adobe Lightroom and Photoshop to edit my photos. I focus on enhancing color, contrast, and sharpness while keeping the image natural and true to the moment. I&apos;ve also experimented with different styles from cinematic tones to clean commercial looks depending on the project&apos;s vibe.
       </p>
       <p>
-        Photography has become more than just a hobby it&apos;s a creative outlet and a skill I hope to continue developing alongside my studies in computer science. I&apos;d love to explore video work and possibly drone photography in the future as part of my personal projects.
+        Photography has become more than just a hobby—it&apos;s a creative outlet and a skill I hope to continue developing alongside my studies in computer science. I&apos;d love to explore video work and possibly drone photography in the future as part of my personal projects.
       </p>
       <Image src="/motorcycle.jpg" alt="A photo of a motorcycle I photographed" width={150} height={200} />
 

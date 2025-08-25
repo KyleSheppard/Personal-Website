@@ -15,8 +15,7 @@ export default function Hobbies() {
 
       <h2>Hunting</h2>
       <p>
-        Hunting has been a part of my life since I was a kid. Growing up in Grants Pass, I was surrounded by beautiful country that offers great opportunities for hunting.
-        I primarily hunt deer and bear, but I also enjoy bird hunting in the fall.
+        Hunting has been a part of my life since I was a kid. Growing up in Grants Pass, I was surrounded by beautiful country that offers great opportunities for hunting. I primarily hunt deer and bear, but I also enjoy bird hunting in the fall.
       </p>
       <p>
         I enjoy the entire process of gearing up, scouting locations, and spending time out in the woods. It&apos;s not just about the hunt—it&apos;s about being outdoors with yourself, friends, and family.

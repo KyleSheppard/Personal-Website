@@ -20,7 +20,7 @@ export default function Hobbies() {
       <p>
         I enjoy the entire process of gearing up, scouting locations, and spending time out in the woods. It&apos;s not just about the hunt it&apos;s about being outdoors with yourself, friends, and family.
       </p>
-      <Image src="/deer.jpg" alt="A photo of a deer I hunted" width={150} height={200} />
+      <Image src="/deer.jpg" alt="A photo of a deer I hunted" width={200} height={300} />
 
       <h2>Fishing</h2>
       <p>

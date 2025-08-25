@@ -7,8 +7,8 @@ export default function Home() {
       <header>
         <h1>Kyle Sheppard</h1>
         <nav>
-          <Link href="/">Home</Link> |{" "}
-          <Link href="/hobbies">Hobbies</Link> |{" "}
+          <Link href="/">Home</Link>
+          <Link href="/hobbies">Hobbies</Link>
           <Link href="/projects">Projects</Link>
         </nav>
       </header>

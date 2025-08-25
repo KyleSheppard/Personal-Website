@@ -7,8 +7,8 @@ export default function Projects() {
       <header>
         <h1>Personal Projects</h1>
         <nav>
-          <Link href="/">Home</Link> |{" "}
-          <Link href="/hobbies">Hobbies</Link> |{" "}
+          <Link href="/">Home</Link>
+          <Link href="/hobbies">Hobbies</Link>
           <Link href="/projects">Projects</Link>
         </nav>
       </header>

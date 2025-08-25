@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <p>
-        Hello! My name is <strong>Kyle Sheppard</strong>. This is my second year at Southern Oregon University studying Computer Science, and I'm <em>excited</em> to grow my skills in coding and web development.
+        Hello! My name is <strong>Kyle Sheppard</strong>. This is my second year at Southern Oregon University studying Computer Science, and I'm excited to grow my skills in coding and web development.
       </p>
 
       <h2>My Educational Background</h2>
@@ -14,7 +14,7 @@ export default function Home() {
 
       <h2>Goals For The Future</h2>
       <p>
-        I will complete my Bachelor's Degree in Computer Science in June of 2027. At that point, I would like to find an entry-level job in the Rogue Valley doing software research and development.
+        I will complete my Bachelors Degree in Computer Science in June of 2027. At that point, I would like to find an entry-level job in the Rogue Valley doing software research and development.
       </p>
 
       <h2>Personal Background</h2>

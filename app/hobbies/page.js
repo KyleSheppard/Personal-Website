@@ -14,14 +14,14 @@ export default function Hobbies() {
 
       <h2>Fishing</h2>
       <p>
-        Fishing is another outdoor hobby I’m passionate about. Whether it's casting a line in a quiet lake or fishing in the Rogue River, there’s nothing quite like the calm and focus that comes with being on the water.
+        Fishing is another outdoor hobby Im passionate about. Whether its casting a line in a quiet lake or fishing in the Rogue River, theres nothing quite like the calm and focus that comes with being on the water.
       </p>
       <Image src="/fishing.jpg" alt="A photo of a fish I caught" width={150} height={200} />
 
       <div className="section-box">
         <h2>Why I Love the Outdoors</h2>
         <p>
-          Being outside whether it’s hunting, fishing, or hiking—keeps me grounded. The fresh air, the quiet, and the feeling of self-reliance all make outdoor hobbies more than just recreation—they're a way of life.
+          Being outside whether its hunting, fishing, or hiking—keeps me grounded. The fresh air, the quiet, and the feeling of self reliance all make outdoor hobbies more than just recreation theyre a way of life.
         </p>
       </div>
     </main>

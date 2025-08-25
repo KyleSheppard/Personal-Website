@@ -1,5 +1,4 @@
 import './globals.css';
-import Link from 'next/link';
 
 export const metadata = {
   title: 'Kyle Sheppard - Personal Website',
@@ -13,9 +12,9 @@ export default function RootLayout({ children }) {
         <header>
           <h1>Kyle Sheppard</h1>
           <nav>
-            <Link href="/">Home</Link>
-            <Link href="/hobbies">Hobbies</Link>
-            <Link href="/projects">Projects</Link>
+            <a href="/">Home</a>
+            <a href="/hobbies">Hobbies</a>
+            <a href="/projects">Projects</a>
           </nav>
         </header>
 

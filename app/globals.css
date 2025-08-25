@@ -13,47 +13,27 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    animation: fadeIn 1s ease-in; /* Creative touch: fade-in */
 }
 
 /* ===== Navigation ===== */
-nav {
+ul {
     background-color: #2c3e50;
     padding: 10px;
+    list-style: none;
+    margin: 0;
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-nav a {
+ul li a {
     color: #f1c40f;
     text-decoration: none;
     font-weight: bold;
-    padding: 8px 15px;
-    border-radius: 5px;
-    background-color: #f1c40f; /* yellow button background */
-    color: #ffffff; /* white text */
-    transition: background-color 0.3s, color 0.3s;
 }
 
-nav a:hover {
-    background-color: #e67e22; /* orange on hover */
-    color: #ffffff;
-}
-
-/* Animate link underline on hover (optional extra touch) */
-nav a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #ffffff;
-    transition: width 0.3s;
-}
-
-nav a:hover::after {
-    width: 100%;
+ul li a:hover {
+    color: #e67e22;
 }
 
 /* ===== Headings ===== */
@@ -75,16 +55,12 @@ p {
 }
 
 /* ===== Images ===== */
-img,
-img + img,
-.Image {
+img {
     display: block;
     margin: 20px auto;
-    width: 150px; /* fixed width for vertical images */
-    height: auto; /* maintain aspect ratio */
+    max-width: 90%;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    object-fit: cover;
 }
 
 /* ===== Box Model Layout Example ===== */
@@ -97,7 +73,7 @@ img + img,
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* ===== Footer ===== */
+/* ===== Footer (Creative Touch #1) ===== */
 footer {
     text-align: center;
     padding: 15px;
@@ -106,7 +82,27 @@ footer {
     margin-top: 40px;
 }
 
-/* ===== Animations ===== */
+/* ===== Unique Creative Touches ===== */
+
+/* Creative Touch #2: Animate link underline on hover */
+ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f1c40f;
+    transition: width 0.3s;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+
+/* Creative Touch #3: Fade-in animation */
+body {
+    animation: fadeIn 1s ease-in;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }

@@ -1,38 +1,113 @@
-/* Global Styles */
+/* ===== Color Scheme =====
+Primary: #2c3e50 (dark blue)
+Accent 1: #e67e22 (orange)
+Accent 2: #f1c40f (yellow)
+Background: #ecf0f1 (light gray)
+Text: #333 (dark gray)
+*/
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f4f4f4;
+    background-color: #ecf0f1;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    animation: fadeIn 1s ease-in; /* Creative touch: fade-in */
 }
 
-h1, h2 {
-  color: #333;
-}
-
-/* Navigation buttons */
+/* ===== Navigation ===== */
 nav {
-  margin-bottom: 20px;
+    background-color: #2c3e50;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav a {
-  background-color: #FFD700; /* yellow */
-  color: white;
-  padding: 10px 15px;
-  margin-right: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #f1c40f; /* yellow button background */
+    color: #ffffff; /* white text */
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-  background-color: #FFC107;
+    background-color: #e67e22; /* orange on hover */
+    color: #ffffff;
 }
 
-/* Box section */
+/* Animate link underline on hover (optional extra touch) */
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* ===== Headings ===== */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #e67e22;
+    margin-left: 20px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    margin: 10px 20px;
+    font-size: 1.05em;
+}
+
+/* ===== Images ===== */
+img,
+img + img,
+.Image {
+    display: block;
+    margin: 20px auto;
+    width: 150px; /* fixed width for vertical images */
+    height: auto; /* maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+/* ===== Box Model Layout Example ===== */
 .section-box {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-top: 20px;
-  background-color: #fff;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    margin-top: 40px;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
